@@ -19,7 +19,14 @@ public class GUI
     static void initial_Menu()
     {
         JMenuBar Menu=new JMenuBar();
-        //JMenu file_menu=File_Menu.initial();
+        //李要实现的：
         Menu.add(File_Menu.initial());
+        
+        //Menu.add(JMenu object);
+        //袁要实现的：
+        Menu.add(Edit_Menu.initial());
+
+        //马要实现的：
+        Menu.add(Settings_Menu.initial());
     }
 }
